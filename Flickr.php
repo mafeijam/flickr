@@ -9,7 +9,7 @@ class Flickr
 				'method' => 'photos',
 				'user' => '47690304@N02',
 				'photoset' => '72157645040997172',
-				'perpage' => 12,
+				'perpage' => 10,
 				'size' => '_z'
 			];
 
