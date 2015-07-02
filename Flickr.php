@@ -28,6 +28,7 @@ class Flickr
 		$this->buildImages($data, $setting);
 		$this->getInfo($data, $setting->method);
 		$this->setPages($data->{$setting->method}->pages);
+		return $this;
 	}
 
 	private function getJson($setting)
