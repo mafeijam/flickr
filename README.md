@@ -7,5 +7,7 @@ This is a very simple PHP class to use the Flickr API service to get your own ph
 $f = new Flickr($api, $opt);
 
 $f->getPhotos();
+
 $f->getInfo();
+
 $f->bootstrapPagination();
